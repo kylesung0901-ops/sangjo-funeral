@@ -14,14 +14,21 @@
    - **Output Directory**: `build`
    - **Install Command**: `npm install`
 5. 환경 변수 추가:
-   - `VITE_FIREBASE_API_KEY`
-   - `VITE_FIREBASE_AUTH_DOMAIN`
-   - `VITE_FIREBASE_PROJECT_ID`
-   - `VITE_FIREBASE_STORAGE_BUCKET`
-   - `VITE_FIREBASE_MESSAGING_SENDER_ID`
-   - `VITE_FIREBASE_APP_ID`
-   - `VITE_FIREBASE_MEASUREMENT_ID`
-6. "Deploy" 클릭
+   - `VITE_FIREBASE_API_KEY` = `AIzaSyDO3TdEWghWqLtQAkhG2Fwd0NHxRH8_dHE`
+   - `VITE_FIREBASE_AUTH_DOMAIN` = `sangjo-funeral.firebaseapp.com`
+   - `VITE_FIREBASE_PROJECT_ID` = `sangjo-funeral`
+   - `VITE_FIREBASE_STORAGE_BUCKET` = `sangjo-funeral.firebasestorage.app`
+   - `VITE_FIREBASE_MESSAGING_SENDER_ID` = `566010018168`
+   - `VITE_FIREBASE_APP_ID` = `1:566010018168:web:35114574c37e1e7ace708d`
+   - `VITE_FIREBASE_MEASUREMENT_ID` = `G-PDLW7QCPV0`
+   
+   ⚠️ **경고 메시지에 대해**: 
+   - Vercel에서 "might expose sensitive information" 경고가 나타날 수 있습니다
+   - **이 경고는 무시해도 됩니다**
+   - Firebase API Key는 공개되어도 안전합니다 (Firebase 보안 규칙으로 보호됨)
+   - 자세한 내용은 `src/docs/FIREBASE_SECURITY.md` 참고
+   
+6. "Save" 클릭 후 "Deploy" 클릭
 
 ### 2. 환경 변수 설정
 
