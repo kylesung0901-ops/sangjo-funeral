@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.local
+.env.*.local
+test-results
+playwright-report
+playwright/.cache
+.git
+.gitignore
+
